@@ -21,16 +21,16 @@
 1. 下载Kitematic的zip压缩包,选中任务栏docker图标，右键Kitematic点击，第一次点击会打开浏览器下载它的压缩包
 
 2. 将压缩包解压到docker（C:\Program Files\Docker）安装目录下，并将解压后的文件命名为Kitematic
-![avatar](./img/docker_33.png)
+![avatar](https://user-images.githubusercontent.com/34411304/68387615-ab131500-0199-11ea-9893-d8410807a57f.png)
 
 3. 再次点击任务栏docker中的Kitematic就会出现登录界面，此时在这里注册是没用的。
-![avatar](./img/dockerhub_login.png)
+![avatar](https://user-images.githubusercontent.com/34411304/68387645-bf571200-0199-11ea-9996-1bba3461b642.png)
 
 4. 浏览器打开dockerhub的网站注册一个dockerhub账户,按照三张图的顺序注册。
-![avatar](./img/dockerhub0.png)
-![avatar](./img/dockerhub2.png)
-![avatar](./img/dockerhub1.png)
+![dockerhub0](https://user-images.githubusercontent.com/34411304/68387694-d990f000-0199-11ea-9706-48511764e1c6.png)
+![dockerhub2](https://user-images.githubusercontent.com/34411304/68387712-e7df0c00-0199-11ea-923b-23b5d92f2e7f.p
+![dockerhub1](https://user-images.githubusercontent.com/34411304/68387715-ead9fc80-0199-11ea-84f0-bf19e4654ef4.png)
 
 5. 回到本机Kitematic登录界面，把第第四步注册的账户输入登录
 ![kit_login](https://user-images.githubusercontent.com/34411304/68385776-7a30e100-0195-11ea-9a9d-93ebc6019b9d.png)
-![avatar](./img/kit_logged.png)
+![kit_logged](https://user-images.githubusercontent.com/34411304/68387729-fa594580-0199-11ea-8229-4e8ad828a72e.png)
