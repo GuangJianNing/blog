@@ -6,7 +6,7 @@
 ![avatar](./img/docker3.png)
 
 2. 在此之前得申请阿里云账户，然后登陆出现以下页面，然后截图指示找到dockerhub加速的阿里云镜像，点击复制
-![avatar](./img/docker1.jpg)
+![avatar](https://github.com/GuangJianNing/blog/blob/master/docker/img/docker1.jpg)
 
 
 3. 将第一步的镜像复制到docker-setting-daemon里面的
