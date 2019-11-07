@@ -6,15 +6,14 @@
 ![docker3](https://user-images.githubusercontent.com/34411304/68386050-2ffc2f80-0196-11ea-8e2c-5414f8905014.png)
 
 2. 在此之前得申请阿里云账户，然后登陆出现以下页面，然后截图指示找到dockerhub加速的阿里云镜像，点击复制
-![avatar](https://github.com/GuangJianNing/blog/blob/master/docker/img/docker1.jpg)
-
+![docker1](https://user-images.githubusercontent.com/34411304/68387468-5a032100-0199-11ea-9cf9-49fd3fbe2046.jpg)
 
 3. 将第一步的镜像复制到docker-setting-daemon里面的
 	
 	"registry-mirrors": [
     "https://xxx.mirror.aliyuncs.com"
   ]
-![avatar](./img/docker11.png)
+![avatar](https://user-images.githubusercontent.com/34411304/68387533-7ef79400-0199-11ea-9926-e0df9a3acca0.png)
 
 4. 点击apply，docker将重启生效
 
