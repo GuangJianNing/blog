@@ -3,7 +3,8 @@
 ## docker镜像的加速配置
 
 1. https://yq.aliyun.com/articles/29941  打开这个链接以后出现以下网页，按照截图说明进行
-![avatar](./img/docker3.png)
+![avatar](![docker3](https://user-images.githubusercontent.com/34411304/68386050-2ffc2f80-0196-11ea-8e2c-5414f8905014.png)
+)
 
 2. 在此之前得申请阿里云账户，然后登陆出现以下页面，然后截图指示找到dockerhub加速的阿里云镜像，点击复制
 ![avatar](https://github.com/GuangJianNing/blog/blob/master/docker/img/docker1.jpg)
