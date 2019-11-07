@@ -33,5 +33,5 @@
 ![avatar](./img/dockerhub1.png)
 
 5. 回到本机Kitematic登录界面，把第第四步注册的账户输入登录
-![avatar](./img/kit_login.png)
+![kit_login](https://user-images.githubusercontent.com/34411304/68385776-7a30e100-0195-11ea-9a9d-93ebc6019b9d.png)
 ![avatar](./img/kit_logged.png)
