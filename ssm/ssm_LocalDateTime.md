@@ -42,10 +42,12 @@
 ```
 
 #### 解决办法
-原来3.4版本的mybatis需要和spring5.0+版本配套。这个在这个网站可以查到[mybatis官网](http://mybatis.org/spring/zh/)
-于是修改maven中的spring-version为5.0以上的版本，具体版本在maven-repository里面查找，
-
-
+原来3.4版本的mybatis需要和spring3.2+版本配套。这个在这个网站可以查到[mybatis官网](http://mybatis.org/spring/zh/)
+此处我修改maven中的spring-version为5.0以上的版本问题解决，具体版本在maven-repository里面查找，
+| MyBatis-Spring | MyBatis | Spring 框架 | Java |
+| -------------- | ------- | ----------- | --- |
+|2.0	|3.5+	|5.0+	|	Java 8+|
+|1.3|	3.4+	|3.2.2+|Java 6+|
 #### 此时又出现bug
  再系统正常运行时，log4j的日志消失了，没有日志输出
 
