@@ -73,3 +73,17 @@ select p.*,c..id as 'ccid' ,c.name as 'cname'
 ![image](https://user-images.githubusercontent.com/34411304/72141128-347ad980-33cd-11ea-9e83-85264d449b6a.png)
 #### 总结
 以后多表查询有字段名重名要显示的自己指定别名，不要偷懒
+
+
+### mybatis 批量插入
+collection 的名字必须list 表示一个集合，item是集合中的迭代元素
+```xml
+ <insert id="insertBatch" keyColumn="id" keyProperty="id" useGeneratedKeys="true">
+        insert into propertyvalue (pid, ptid, value
+        )
+        <foreach collection="list" item="pv">
+            values (#{pv.pid,jdbcType=INTEGER}, #{pv.ptid,jdbcType=INTEGER},null )
+        </foreach>
+    </insert>
+```
+   
